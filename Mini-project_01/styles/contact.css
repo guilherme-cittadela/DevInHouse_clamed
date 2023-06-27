@@ -1,0 +1,65 @@
+form{
+    display: flex;
+    justify-content: center;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    height: 70vh;
+    padding:10px;
+    background-color: #aacddf;
+    color: #726E97;
+    text-align: left;
+    border: none;
+    text-emphasis: none;
+    margin: 10px;
+}
+
+select{
+    text-decoration: none;
+    border: solid 1px #726e9797;
+    height: 25px;
+    color: gray;
+}
+
+option{
+    color: gray;
+}
+
+
+input, select, textarea{
+    color: #555271;
+    border: solid 1px #726e9797;
+    height: 25px;
+}
+
+select, textarea, input:focus{
+    outline: #726E97 solid 1px;
+}
+textarea{
+    height: 150px;
+}
+
+fieldset > section{
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+}
+
+.check-container{
+    display: flex;
+    text-align: left;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+#budget:focus{
+    outline: none;
+}
+
+#budget::selection{
+    color: #726E97;
+}

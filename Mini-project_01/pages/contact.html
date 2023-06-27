@@ -4,8 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/contact.css">
 </head>
 <body>
+    <header>  
+        <img src="../public/logo.png" alt="Logo da farmacia DevInFarm">
+        <nav>
+            <a class="button" href="../index.html">Todos Medicamentos</a>
+            <a class="button" href="">Sobre nós</a>
+            <a class="button" href="contact.html">Fale Conosco</a>
+        </nav>
+    </header>
     <main>
         <form action="">
             <fieldset>
@@ -27,11 +37,16 @@
 
                 <label for="message">Sua mensagem:</label>
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="..."></textarea>
-
-                <label for="budget">Esta mensagem é sobre um orçamento?</label>
-                <input type="checkbox" name="budget" id="budget">
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
+                <section >
+                    <input type="checkbox" checked="checked" name="budget" id="budget">
+                    <label class="check-container" for="budget">
+                        Esta mensagem é sobre um orçamento?
+                    </label>
+                </section>
+                <section>
+                    <input class="button" type="submit" value="Enviar">
+                    <input class="button" type="reset" value="Limpar">
+                </section>
             </fieldset>
         </form>
     </main>
