@@ -95,18 +95,12 @@ O desenvolvimento será dividido em partes:
 
 Criação do rodapé (footer):
 
-    Adicione o copyright e ano
-
-    Adicione o iframe da “localização fictícia do lugar“
-
-    Criação de Página sobre nós
-
-    Adicione uma foto que represente a empresa
-
-    E um texto sobre ela com ícones sociais
-
-    instagram
-    facebook
-    whatsapp
-
-Alteração da página inicial - index.html para medicamentos.html.
+   * Adicione o copyright e ano
+   * Adicione o iframe da “localização fictícia do lugar“
+   * Criação de Página sobre nós
+   * Adicione uma foto que represente a empresa
+   * E um texto sobre ela com ícones sociais
+        instagram
+        facebook
+        whatsapp
+* Alteração da página inicial - index.html para medicamentos.html.
