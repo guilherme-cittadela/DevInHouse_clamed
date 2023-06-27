@@ -20,16 +20,17 @@ Crie os arquivos necessários para a estilização e as páginas:
     style.css
 
 2. Menu
+   
 
     Adicione o conteúdo à página principal:
 
-    Crie um menu que será utilizado tanto no index quanto no contato.
+        Crie um menu que será utilizado tanto no index quanto no contato.
 
-    Adicione um logotipo (imagem ou texto).
+        Adicione um logotipo (imagem ou texto).
 
-    Adicione as opções (Todos os remédios, Sobre nós, Fale conosco).
+        Adicione as opções (Todos os remédios, Sobre nós, Fale conosco).
 
-    Crie semanticamente o menu utilizando as melhores tags.
+        Crie semanticamente o menu utilizando as melhores tags.
 
     Faça o redirecionamento das seguintes opções:
 
@@ -37,6 +38,7 @@ Crie os arquivos necessários para a estilização e as páginas:
         "Fale conosco" para contato.html.
 
     Não é necessário criar um link para "Sobre nós".
+   
 
 3. Criação do Card de Remédio
 
@@ -47,6 +49,7 @@ Crie os arquivos necessários para a estilização e as páginas:
         Ícone de coração
         Valor
         Botão "Adicionar" + ícone
+
 
 4. Página de Contato / Fale Conosco
 
@@ -59,21 +62,23 @@ Crie os arquivos necessários para a estilização e as páginas:
         Sua mensagem (textarea)
         Checkbox - Esta mensagem é sobre um orçamento
         Botão enviar
+   
 
 ### Estilização (CSS)
 
+
 5. Estilização do Menu
-
 6. Estilização do Card de Remédio
+7. Estilização da Listagem dos Remédios:
 
-7. Estilização da Listagem dos Remédios
+        Replicar o card criado e fazer a listagem contendo 3-4 remédios por linha.
 
-    Replicar o card criado e fazer a listagem contendo 3-4 remédios por linha.
-
-    Utilizar a estratégia de layout preferida (flex, grid).
+        Utilizar a estratégia de layout preferida (flex, grid).
 8. Estilização do FormulárioBootstrap
 
+
 ## Outro projeto Refaça utilizando recursos ou componentes do Bootstrap
+
 
 9. Configurar o Bootstrap no projeto.
 
@@ -82,6 +87,8 @@ Crie os arquivos necessários para a estilização e as páginas:
 11. Refazer a listagem de remédios utilizando Bootstrap.
 
 12. Refazer o formulário utilizando Bootstrap.
+
+    
 
 *Bônus*
 
