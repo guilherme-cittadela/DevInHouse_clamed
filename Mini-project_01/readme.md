@@ -7,7 +7,7 @@ A página de apresentação dos medicamentos será a vitrine virtual da farmáci
 O desenvolvimento será dividido em partes:
 Estrutura HTML
 
-Ex 1: Estrutura inicial
+1. Estrutura inicial
 
 Crie um repositório no GitHub e dê um nome de sua preferência. Em seguida, clone o repositório para iniciar a codificação local.
 
@@ -19,85 +19,83 @@ Crie os arquivos necessários para a estilização e as páginas:
     contato.html (Formulário "Fale Conosco")
     style.css
 
-Ex 2: Menu
+2. Menu
 
-Adicione o conteúdo à página principal:
+    Adicione o conteúdo à página principal:
 
-Crie um menu que será utilizado tanto no index quanto no contato.
+    Crie um menu que será utilizado tanto no index quanto no contato.
 
-Adicione um logotipo (imagem ou texto).
+    Adicione um logotipo (imagem ou texto).
 
-Adicione as opções (Todos os remédios, Sobre nós, Fale conosco).
+    Adicione as opções (Todos os remédios, Sobre nós, Fale conosco).
 
-Crie semanticamente o menu utilizando as melhores tags.
+    Crie semanticamente o menu utilizando as melhores tags.
 
-Faça o redirecionamento das seguintes opções:
+    Faça o redirecionamento das seguintes opções:
 
-    "Todos os remédios" para index.html.
-    "Fale conosco" para contato.html.
+        "Todos os remédios" para index.html.
+        "Fale conosco" para contato.html.
 
-Não é necessário criar um link para "Sobre nós".
+    Não é necessário criar um link para "Sobre nós".
 
-Ex 3: Criação do Card de Remédio
+3. Criação do Card de Remédio
 
-Crie um card para o remédio com os seguintes elementos:
+    Crie um card para o remédio com os seguintes elementos:
 
-    Imagem
-    Título
-    Ícone de coração
-    Valor
-    Botão "Adicionar" + ícone
+        Imagem
+        Título
+        Ícone de coração
+        Valor
+        Botão "Adicionar" + ícone
 
-Ex 4: Página de Contato / Fale Conosco
+4. Página de Contato / Fale Conosco
 
-Crie o formulário de contato com os seguintes campos:
+    Crie o formulário de contato com os seguintes campos:
 
-    Nome
-    Telefone para contato
-    E-mail
-    Assunto (Opções em um combo)
-    Sua mensagem (textarea)
-    Checkbox - Esta mensagem é sobre um orçamento
-    Botão enviar
+        Nome
+        Telefone para contato
+        E-mail
+        Assunto (Opções em um combo)
+        Sua mensagem (textarea)
+        Checkbox - Esta mensagem é sobre um orçamento
+        Botão enviar
 
-Estilização (CSS)
+### Estilização (CSS)
 
-Ex 5: Estilização do Menu
+5. Estilização do Menu
 
-Ex 6: Estilização do Card de Remédio
+6. Estilização do Card de Remédio
 
-Ex 7: Estilização da Listagem dos Remédios
+7. Estilização da Listagem dos Remédios
 
-Replicar o card criado e fazer a listagem contendo 3-4 remédios por linha.
+    Replicar o card criado e fazer a listagem contendo 3-4 remédios por linha.
 
-Utilizar a estratégia de layout preferida (flex, grid).
+    Utilizar a estratégia de layout preferida (flex, grid).
+8. Estilização do FormulárioBootstrap
 
-Ex 8: Estilização do Formulário
-Bootstrap
+## Outro projeto Refaça utilizando recursos ou componentes do Bootstrap
 
-Outro projeto Refaça utilizando recursos ou componentes do Bootstrap
+9. Configurar o Bootstrap no projeto.
 
-Ex 9: Configurar o Bootstrap no projeto.
+10. Refazer o menu utilizando Bootstrap.
 
-Ex 10: Refazer o menu utilizando Bootstrap.
+11. Refazer a listagem de remédios utilizando Bootstrap.
 
-Ex 11: Refazer a listagem de remédios utilizando Bootstrap.
+12. Refazer o formulário utilizando Bootstrap.
 
-Ex 12: Refazer o formulário utilizando Bootstrap.
+*Bônus*
 
-^^^^^^ Bônus ^^^^^^
+Criação do rodapé (footer):
 
-Criação do rodapé (footer)
+    Adicione o copyright e ano
 
-Adicione o copyright e ano
+    Adicione o iframe da “localização fictícia do lugar“
 
-Adicione o iframe da “localização fictícia do lugar“
+    Criação de Página sobre nós
 
-Criação de Página sobre nós
+    Adicione uma foto que represente a empresa
 
-Adicione uma foto que represente a empresa
-
-E um texto sobre ela com ícones sociais
+    E um texto sobre ela com ícones sociais
 
     instagram
     facebook
