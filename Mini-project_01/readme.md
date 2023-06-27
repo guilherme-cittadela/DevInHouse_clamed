@@ -1,4 +1,4 @@
-#Desenvolvimento de E-commerce Farmacêutico
+# Desenvolvimento de E-commerce Farmacêutico
 
 Você foi escolhido para desenvolver um e-commerce para uma farmácia fictícia. Neste momento, precisamos apenas de duas páginas principais: uma para apresentar os medicamentos disponíveis e outra para os clientes entrarem em contato.
 
