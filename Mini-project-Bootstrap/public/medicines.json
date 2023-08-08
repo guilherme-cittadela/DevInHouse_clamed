@@ -1,0 +1,140 @@
+{
+    "remedios": [
+      {
+        "name": "Paracetamol",
+        "manufacturer": "Farmacorp",
+        "dosage": "500mg",
+        "indications": ["Febre", "Dor de cabeça", "Dor no corpo"],
+        "price": 10.99,
+        "stock": 50
+      },
+      {
+        "name": "Ibuprofeno",
+        "manufacturer": "MedFarma",
+        "dosage": "400mg",
+        "indications": ["Dor de dente", "Dor muscular", "Inflamação"],
+        "price": 8.5,
+        "stock": 30
+      },
+      {
+        "name": "Amoxicilina",
+        "manufacturer": "BioMed",
+        "dosage": "500mg",
+        "indications": ["Infecção bacteriana", "Amigdalite", "Sinusite"],
+        "price": 15.75,
+        "stock": 20
+      },
+      {
+        "name": "Omeprazol",
+        "manufacturer": "PharmaLife",
+        "dosage": "20mg",
+        "indications": ["Azia", "Refluxo gastroesofágico", "Úlcera péptica"],
+        "price": 12.0,
+        "stock": 40
+      },
+      {
+        "name": "Dipirona",
+        "manufacturer": "MedGen",
+        "dosage": "500mg",
+        "indications": ["Dor intensa", "Febre alta", "Enxaqueca"],
+        "price": 6.99,
+        "stock": 25
+      },
+      {
+        "name": "Sinvastatina",
+        "manufacturer": "PharmaCorp",
+        "dosage": "20mg",
+        "indications": ["Colesterol alto", "Doença cardiovascular"],
+        "price": 18.5,
+        "stock": 15
+      },
+      {
+        "name": "Metformina",
+        "manufacturer": "BioMed",
+        "dosage": "850mg",
+        "indications": ["Diabetes tipo 2", "Resistência à insulina"],
+        "price": 14.25,
+        "stock": 35
+      },
+      {
+        "name": "Ranitidina",
+        "manufacturer": "MedFarma",
+        "dosage": "150mg",
+        "indications": ["Úlcera gástrica", "Refluxo ácido"],
+        "price": 9.75,
+        "stock": 30
+      },
+      {
+        "name": "Clonazepam",
+        "manufacturer": "PharmaLife",
+        "dosage": "2mg",
+        "indications": ["Ansiedade", "Transtornos do sono"],
+        "price": 21.99,
+        "stock": 10
+      },
+      {
+        "name": "Diclofenaco",
+        "manufacturer": "MedGen",
+        "dosage": "50mg",
+        "indications": ["Inflamação", "Dor crônica", "Artrite"],
+        "price": 7.5,
+        "stock": 20
+      },
+      {
+        "name": "Cetirizina",
+        "manufacturer": "Farmacorp",
+        "dosage": "10mg",
+        "indications": ["Alergias", "Rinite alérgica"],
+        "price": 11.0,
+        "stock": 15
+      },
+      {
+        "name": "Loratadina",
+        "manufacturer": "MedFarma",
+        "dosage": "10mg",
+        "indications": ["Alergias", "Coceira na pele"],
+        "price": 9.25,
+        "stock": 25
+      },
+      {
+        "name": "Dexametasona",
+        "manufacturer": "PharmaLife",
+        "dosage": "0.5mg",
+        "indications": ["Inflamação", "Reações alérgicas"],
+        "price": 14.99,
+        "stock": 10
+      },
+      {
+        "name": "Sertralina",
+        "manufacturer": "BioMed",
+        "dosage": "50mg",
+        "indications": ["Depressão", "Transtorno de ansiedade"],
+        "price": 20.5,
+        "stock": 30
+      },
+      {
+        "name": "Ciprofloxacino",
+        "manufacturer": "MedGen",
+        "dosage": "500mg",
+        "indications": ["Infecções bacterianas", "Infecção urinária"],
+        "price": 13.75,
+        "stock": 15
+      },
+      {
+        "name": "Metoclopramida",
+        "manufacturer": "PharmaCorp",
+        "dosage": "10mg",
+        "indications": ["Náuseas", "Vômitos", "Refluxo gastroesofágico"],
+        "price": 8.99,
+        "stock": 20
+      },
+      {
+        "name": "Escitalopram",
+        "manufacturer": "MedFarma",
+        "dosage": "10mg",
+        "indications": ["Depressão", "Transtorno de ansiedade"],
+        "price": 19.0,
+        "stock": 25
+      }
+    ]
+  }
