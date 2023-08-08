@@ -6,49 +6,67 @@
     <title>Document</title>
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" >
 </head>
 <body>
     <header>  
-        <img src="../public/logo.png" alt="Logo da farmacia DevInFarm">
-        <nav>
-            <a class="button" href="../index.html">Todos Medicamentos</a>
-            <a class="button" href="">Sobre nós</a>
-            <a class="button" href="contact.html">Fale Conosco</a>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                
+                <a class="navbar-brand" href="../index.html"><img src="../public/logo.png" alt="Logo DevInFarm" class="d-inline-block align-text-top" width="50" height="50"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Medicamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contact.html">Fale Conosco</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <form action="">
-            <fieldset>
-                <label for="name">Nome:</label>
-                <input placeholder="Fulano de Tal" type="text" name="name" id="name">
-
-                <label for="phone">Telefone:</label>
-                <input type="tel" name="phone" id="phone" placeholder="(99)9999-9999">
-
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" placeholder="fulanodetal@email.com.br">
-
-                <label for="subject">Assunto:</label>
-                <select name="subject" id="subject">
-                    <option value="1">Assunto 1</option>
-                    <option value="2">Assunto 2</option>
-                    <option value="3">Assunto 3</option>
-                </select>
-
-                <label for="message">Sua mensagem:</label>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="..."></textarea>
-                <section >
-                    <input type="checkbox" checked="checked" name="budget" id="budget">
-                    <label class="check-container" for="budget">
-                        Esta mensagem é sobre um orçamento?
-                    </label>
-                </section>
-                <section>
-                    <input class="button" type="submit" value="Enviar">
-                    <input class="button" type="reset" value="Limpar">
-                </section>
-            </fieldset>
-        </form>
+        <div class="container fluid">
+            <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nome </label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Telefone </label>
+                  <input type="phone" placeholder="(99)9999-9999" class="form-control" id="email" aria-describedby="">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email </label>
+                  <input type="email" class="form-control" id="email" aria-describedby="">
+                </div>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Assunto</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Orçamento</label>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Sua mensagem</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                  </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="reset" class="btn btn-primary">Limpar</button>
+            </form>
+        </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" ></script>
 </body>
 </html>
